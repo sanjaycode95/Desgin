@@ -1,0 +1,22 @@
+add_row(label)	
+#Add a new row
+add_column(label)	
+#Add a new column
+remove_row(label)	
+#Remove a row
+remove_column(label)	
+#Remove a column
+insert_data(col, row, value)	
+#Insert single data
+insert_datalist(label, list)	
+#Insert list of data into a row/column
+show_datalist(label)	
+#Display all values related to a label
+get_datalist(label)	
+#Get all values related to a label in the list format
+get_data(col, row)	
+#Get a specific value
+sum(label)	
+#Sum of values for a label
+average(label)	
+#Average of values for a label
