@@ -1,7 +1,7 @@
-from table import creatTable
+import tableframe as ta
 
 # Initialize table with row and column labels
-table = creatTable("Marks", ["Math", "Science"], ["Alice", "Bob"])
+table =ta.creatTable("Marks", ["Math", "Science"], ["Alice", "Bob"])
 
 # Insert single data point
 table.insert_data("Math", "Alice", 85)
